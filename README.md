@@ -16,6 +16,16 @@ This project performs Exploratory Data Analysis (EDA) on the Drug Review Dataset
 
 • File saved after cleaning: drugreviews_clean.csv
 
+## Tools & Libraries
+• Python
+• Jupyter notebook
+•Pandas
+• NumPy
+• Matplotlib
+• Seaborn
+• Scipy/ Statsmodels
+
+
 ## 🛠️ Data Cleaning
 
 • Handled 899 missing values in the condition column → replaced with "Unknown".
@@ -85,7 +95,6 @@ This project performs Exploratory Data Analysis (EDA) on the Drug Review Dataset
 
 ## 📊 Key Visualizations
 • Distribution of Ratings (Histogram)
-![Rating distribution](data/visuals/rating_distribution.png)
 
 • Top 10 Conditions by Review Count (Bar Chart)
 
