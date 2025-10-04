@@ -24,7 +24,7 @@ This project performs Exploratory Data Analysis (EDA) on the Drug Review Dataset
 
 • Standardized ratings to be within 1–10.
 
-• Removed inconsistencies in date parsing.
+• Standardized date formats and corrected inconsistences.
 
 ## 🔑 Key Insights
 
@@ -85,7 +85,7 @@ This project performs Exploratory Data Analysis (EDA) on the Drug Review Dataset
 
 ## 📊 Key Visualizations
 • Distribution of Ratings (Histogram)
-![Rating distribution](visuals/rating_distribution.png)
+![Rating distribution](data/visuals/rating_distribution.png)
 
 • Top 10 Conditions by Review Count (Bar Chart)
 
@@ -93,7 +93,7 @@ This project performs Exploratory Data Analysis (EDA) on the Drug Review Dataset
 
 • Boxplots comparing Ratings across Top Drugs/Conditions
 
-Full visualizations are available in the [visuals folder](visuals/)
+Full visualizations are available in the [visuals folder](data/visuals/)
 
 ## Conclusion
 The dataset shows strongly polarized patient experiences — reviews are either highly positive or highly negative, with few neutral cases. Hormonal drugs (especially birth control–related) dominate the dataset but receive mixed or lower ratings compared to psychiatric drugs (e.g., Sertraline, Phentermine). The temporal trend highlights increasing review activity until 2017, followed by declining volumes and slightly lower ratings.
